@@ -1,0 +1,87 @@
+/* Estilos Gerais */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+
+h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 96px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.altura {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Home */
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 80%;
+    font-size: 0.875rem;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.menu a {
+    padding: 30px 35px;
+}
+
+.ativo {
+    color: #EB5757;
+}
+
+.pinicio {
+    font-size: 0.875rem;
+    color: #333333;
+    line-height: 21px;
+}
+
+.btn {
+    padding: 6px 15px;
+    border-radius: 8px;
+    background-color: #EB5757;
+    border: none;
+    display: block;
+    margin: 10px auto;
+}
+
+.btn a{
+    font-size: 0.75rem;
+    color: #F2F2F2;
+    text-transform: uppercase;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #EB5757;
+    padding: 10px;
+}
+
+.rodape {
+    font-size: 0.75rem;
+    display: flex;
+}
+
+.rodape p a{
+    color: #fff;
+}
+
+.espaco {
+    margin-right: 10px;
+    color: #fff;
+}
