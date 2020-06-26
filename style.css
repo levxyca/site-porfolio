@@ -85,3 +85,20 @@ body {
     margin-right: 10px;
     color: #fff;
 }
+
+/* Sobre */
+
+.paragrafo {
+    max-width: 50%;
+    font-size: 0.75rem;
+    line-height: 18px;
+    text-align: justify;
+}
+
+.paragrafo p:first-of-type {
+    margin-bottom: 1rem;
+}
+
+.imagem {
+    border-radius: 50%;
+}
