@@ -1,0 +1,51 @@
+@media only screen and (max-width: 699px) {
+
+    .menu {
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+    }
+    
+    .menu a {
+        padding: 20px;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background: green;
+    }
+    
+    .container-footer {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #EB5757;
+        padding: 10px;
+    }
+    
+    .rodape {
+        font-size: 0.75rem;
+        display: flex;
+    }
+    
+    .rodape p a{
+        color: #fff;
+    }
+    
+    .espaco {
+        margin-right: 10px;
+        color: #fff;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 980px){
+    /* Inicio */
+    .menu {
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+        font-size: 0.875rem;
+    }
+}
