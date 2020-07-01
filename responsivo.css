@@ -22,10 +22,7 @@
 
     /* Sobre */
     .container {
-        display: flex;
         flex-direction: column-reverse;
-        justify-content: space-evenly;
-        align-items: center;
     }
 
     .imagem {
@@ -36,18 +33,25 @@
 
     .paragrafo {
         max-width: 90%;
-        font-size: 0.75rem;
-        line-height: 18px;
-        text-align: justify;
         margin-bottom: 30px;
     }
-    
-    .paragrafo p:first-of-type {
-        margin-bottom: 1rem;
+
+    /* Projetos */
+    .container {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .projetos {
+        gap: 15px 100px;
+        grid-template-columns: 1fr;
+        margin-bottom: 20px;
     }
     
-    .imagem {
-        border-radius: 50%;
+    .projetos img{
+        width: 250px;
+        height: 150px;
     }
 
 }
@@ -60,4 +64,16 @@
         max-width: 100%;
         font-size: 0.875rem;
     }
-}
+    
+    /* Projetos */
+    .container {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .projetos {
+        gap: 15px 15px;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 20px;
+    }
