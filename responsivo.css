@@ -21,7 +21,34 @@
     }
 
     /* Sobre */
+    .container {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .imagem {
+        width: 180px;
+        height: 180px;
+        padding: 30px 0;
+    }
+
+    .paragrafo {
+        max-width: 90%;
+        font-size: 0.75rem;
+        line-height: 18px;
+        text-align: justify;
+        margin-bottom: 30px;
+    }
     
+    .paragrafo p:first-of-type {
+        margin-bottom: 1rem;
+    }
+    
+    .imagem {
+        border-radius: 50%;
+    }
 
 }
 
