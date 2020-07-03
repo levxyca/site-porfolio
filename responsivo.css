@@ -62,18 +62,12 @@
         display: flex;
         justify-content: center;
         max-width: 100%;
-        font-size: 0.875rem;
     }
     
     /* Projetos */
-    .container {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-
     .projetos {
         gap: 15px 15px;
         grid-template-columns: 1fr 1fr;
         margin-bottom: 20px;
     }
+}
