@@ -1,0 +1,73 @@
+@media only screen and (max-width: 699px) {
+    /* Inicio */
+    .menu {
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+    }
+    
+    .menu a {
+        padding: 20px;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .ilustracao {
+        display: none;
+    }
+
+    /* Sobre */
+    .container {
+        flex-direction: column-reverse;
+    }
+
+    .imagem {
+        width: 180px;
+        height: 180px;
+        padding: 30px 0;
+    }
+
+    .paragrafo {
+        max-width: 90%;
+        margin-bottom: 30px;
+    }
+
+    /* Projetos */
+    .container {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .projetos {
+        gap: 15px 100px;
+        grid-template-columns: 1fr;
+        margin-bottom: 20px;
+    }
+    
+    .projetos img{
+        width: 250px;
+        height: 150px;
+    }
+
+}
+
+@media only screen and (min-width: 700px) and (max-width: 980px){
+    /* Inicio */
+    .menu {
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+    }
+    
+    /* Projetos */
+    .projetos {
+        gap: 15px 15px;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 20px;
+    }
+}

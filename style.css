@@ -106,8 +106,6 @@ body {
 /* Projetos */
 .projetos {
     display: grid;
-    /* row-gap: 60px; */
-    /* column-gap: 100px; */
     gap: 60px 100px;
     grid-template-columns: 1fr 1fr 1fr;
 }
