@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+
+/* ==========================================================================
+   Reset
+   ========================================================================== */
+
+/**
+ * Remove anchor tex-decoration
+ */ 
+
+ a {
+	text-decoration: none;
+}
+
+/**
+ * Remove list-style
+ */ 
+
+ol, ul {
+	list-style: none;
+}
+
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, em, img, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, article, footer, header, nav, section, main {
+	margin: 0;
+	padding: 0;
+	border: 0;
+
+}
+
+h1, h2, h3, h4, h5, h6, p, a, ul {
+	font-size: 1em;
+	font-weight: normal;
+}
+
+/* Estilos Gerais */
+
+h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 96px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.altura {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Home */
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 80%;
+    font-size: 0.875rem;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.menu a {
+    padding: 30px 35px;
+}
+
+.ativo {
+    color: #EB5757;
+}
+
+.pinicio {
+    font-size: 0.875rem;
+    color: #333333;
+    line-height: 21px;
+}
+
+.btn {
+    padding: 6px 15px;
+    border-radius: 8px;
+    background-color: #EB5757;
+    border: none;
+    display: block;
+    margin: 10px auto;
+    font-size: 0.75rem;
+    color: #F2F2F2;
+    text-transform: uppercase;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #EB5757;
+    padding: 10px;
+}
+
+.rodape {
+    font-size: 0.75rem;
+    display: flex;
+}
+
+.rodape p a{
+    color: #fff;
+}
+
+.espaco {
+    margin-right: 10px;
+    color: #fff;
+}
+
+/* Sobre */
+
+.paragrafo {
+    max-width: 50%;
+    font-size: 0.75rem;
+    line-height: 18px;
+    text-align: justify;
+}
+
+.paragrafo p:first-of-type {
+    margin-bottom: 1rem;
+}
+
+.imagem {
+    border-radius: 50%;
+}
+
+/* Projetos */
+.projetos {
+    display: grid;
+    gap: 60px 100px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.projetos img{
+    border-radius: 10px;
+    width: 320px; 
+    height: 190px;
+}
+
+@media only screen and (max-width: 699px) {
+    /* Inicio */
+    .menu {
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+    }
+    
+    .menu a {
+        padding: 20px;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .ilustracao {
+        display: none;
+    }
+
+    /* Sobre */
+    .container {
+        flex-direction: column-reverse;
+    }
+
+    .imagem {
+        width: 180px;
+        height: 180px;
+        padding: 30px 0;
+    }
+
+    .paragrafo {
+        max-width: 90%;
+        margin-bottom: 30px;
+    }
+
+    /* Projetos */
+    .container {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .projetos {
+        gap: 15px 100px;
+        grid-template-columns: 1fr;
+        margin-bottom: 20px;
+    }
+    
+    .projetos img{
+        width: 250px;
+        height: 150px;
+    }
+
+}
+
+@media only screen and (min-width: 700px) and (max-width: 980px){
+    /* Inicio */
+    .menu {
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+    }
+    
+    /* Projetos */
+    .projetos {
+        gap: 15px 15px;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 20px;
+    }
+}
