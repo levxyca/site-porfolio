@@ -10,5 +10,4 @@
 - CSS with Flexbox
 -------------------------------------------------------
 <p align="center">
-Feito com :hearts: por [Leticia Caroline Leonardo](https://github.com/levxyca)
-</p>
+Feito com :hearts: por <a href="https://github.com/levxyca">Leticia Caroline Leonardo</a>
